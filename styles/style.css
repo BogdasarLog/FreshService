@@ -1296,7 +1296,8 @@ body {
 	}
 
 	.card {
-		min-width: 320px;
+		width: 100%;
+    max-width: 320px;
 		padding: 12px;
 		gap: 8px;
 	}
