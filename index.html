@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>Fresh</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="wrapper">
+      <a class="logo-link" href="#">
+        <div class="logo">
+          <div class="logo__picture">
+            <svg width="96" height="32">
+              <use xlink:href="./assets/img/logo-header.svg#logo"></use>
+            </svg>
+          </div>
+          <div class="logo__text">подбор<br> плана питания</div>
+        </div>
+      </a>
+      <nav class="nav">
+        <a class="nav__link" href="#why">Почему Фреш</a>
+        <a class="nav__link" href="#">Для кого</a>
+        <a class="nav__link" href="#">Как работает</a>
+        <a class="nav__link" href="#">Стоимость</a>
+        <a class="nav__link" href="#">FAQ</a>
+      </nav>
+      <div class="user-nav">
+        <a href="tel:+79505671122" class="tel-link">+7 (950) 567-11-22</a>
+        <a class="btn" href="#">Регистрация</a>
+      </div>
+      <label for="btn-burger-toggler">
+        <div class="btn-burger">
+          <span class="btn-burger__line"></span>
+        </div>
+      </label>
+      <input type="checkbox" name="" id="btn-burger-toggler" style="display: none;">
+      <div class="menu-window">
+        <div class="menu">
+          <label for="btn-burger-toggler" class="menu__close-btn">
+            <?xml version="1.0" ?><svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <style>
+                  .cls-1 {
+                    fill: none;
+                    stroke: #000;
+                    stroke-linecap: round;
+                    stroke-linejoin: round;
+                    stroke-width: 2px;
+                  }
+                </style>
+              </defs>
+              <title />
+              <g id="cross">
+                <line class="cls-1" x1="7" x2="25" y1="7" y2="25" />
+                <line class="cls-1" x1="7" x2="25" y1="25" y2="7" />
+              </g>
+            </svg>
+          </label>
+          <nav class="nav__menu menu-nav">
+            <a class="menu-nav__link" href="#">Почему Фреш</a>
+            <a class="menu-nav__link" href="#">Для кого</a>
+            <a class="menu-nav__link" href="#">Как работает</a>
+            <a class="menu-nav__link" href="#">Стоимость</a>
+            <a class="menu-nav__link" href="#">FAQ</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="promo">
+      <div class="wrapper">
+        <!-- <div class="promo__header"> -->
+        <h1 class="heading">Сервис онлайн-подбора плана питания</h1>
+        <p class="subheading">Пройдите тестирование и получите индивидуальный план питания</p>
+        <!-- </div> -->
+        <div class="card-list">
+          <div class="card">
+            <img class="card__img" src="./assets/img/plan1.jpg" alt="2 plates with food.">
+            <p class="card__text">Годовой рацион на 5 приёмов пищи в день</p>
+          </div>
+          <div class="card">
+            <img class="card__img" src="./assets/img/plan2.jpg" alt="Calculator of ZHBU.">
+            <p class="card__text">Индивидуальный расчёт КБЖУ</p>
+          </div>
+          <div class="card">
+            <img class="card__img" src="./assets/img/plan3.jpg" alt="Picture of pills.">
+            <p class="card__text">Расчёт витаминов и микроэлементов</p>
+          </div>
+          <div class="card">
+            <img class="card__img" src="./assets/img/plan4.jpg" alt="Picture of smoothy.">
+            <p class="card__text">Расчёт водного баланса и питьевого режима</p>
+          </div>
+          <div class="card">
+            <img class="card__img" src="./assets/img/plan5.jpg" alt="Eggs in plate and avokado near.">
+            <p class="card__text">Доступ в закрытый чат в Telegram с членом Ассоциации диетологов</p>
+          </div>
+        </div>
+        <a href="#" class="btn promo__btn">Узнать подробнее</a>
+      </div>
+    </section>
+
+    <section class="arguments" id="why">
+      <div class="wrapper">
+        <h2 class="title arguments__title">Почему Фреш?</h2>
+        <div class="arguments-list">
+          <div class="big-box big-box--pink">
+            <img class="big-box__img" src="./assets/img/pink-small.png" alt="Food one descriprion." width="100%"
+              height="100%">
+            <div class="big-box__inner">
+              <h3 class="subtitle big-box__subtitle">Сервис заменяет консультацию с диетологом и нутрициологом</h3>
+              <p class="text big-box__text">Не третьте время и деньги на консультации с диетологом и нутрициологом.
+                После онлайн
+                тестирования у вас будет индивидуальный план питания с учётом вашего образа жизни и целей.</p>
+            </div>
+          </div>
+          <div class="big-box big-box--orange">
+            <img class="big-box__img" src="./assets/img/orange-small.png" alt="Food one descriprion." width="100%"
+              height="100%">
+            <div class="big-box__inner">
+              <h3 class="subtitle big-box__subtitle">Опираясь на уже сформированные пищевые привычки, высока
+                вероятность допустить ошибку
+              </h3>
+              <p class="text big-box__text">Исследование Ассоциации диетологов показало, что вероятность
+                придерживаться здорового
+                питания без консультаций с диетологом — 36%.</p>
+            </div>
+          </div>
+          <div class="big-box big-box--green">
+            <img class="big-box__img" src="./assets/img/green-small.png" alt="Food one descriprion." width="100%"
+              height="100%">
+            <div class="big-box__inner">
+              <h3 class="subtitle big-box__subtitle">Перестаньте доверять старым привычкам, интуиции и принимайте
+                решения на основе точных
+                данных</h3>
+              <p class="text big-box__text">Исследование Ассоциации диетологов показало, что вероятность
+                придерживаться здорового
+                питания после сервиса онлайн-подбора плана питания — 88%.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="advantages">
+      <div class="wrapper">
+        <h2 class="title advantages__title">Для всех,<br> кто заботится<br> о здоровье</h2>
+        <div class="advantages-list">
+          <div class="advantages-item">
+            <div class="advantages-item__mark">
+              <svg width="48" height="48">
+                <use xlink:href="./assets/icons/check-mark.svg#check-mark"></use>
+              </svg>
+            </div>
+            <div class="advantages-item__box">
+              <h3 class="title2 advantages-item__subtitle">Вы категоричны</h3>
+              <p class="text">Перепробовали различные диеты и хотите вписать здоровое питание в свою жизнь раз и
+                навсегда.</p>
+            </div>
+          </div>
+          <div class="advantages-item">
+            <div class="advantages-item__mark">
+              <svg width="48" height="48">
+                <use xlink:href="./assets/icons/check-mark.svg#check-mark"></use>
+              </svg>
+            </div>
+            <div class="advantages-item__box">
+              <h3 class="title2 advantages-item__subtitle">Только начинаете</h3>
+              <p class="text">Хотите начать, но обилие различной информации не даёт понять, как сделать первый шаг.</p>
+            </div>
+          </div>
+          <div class="advantages-item">
+            <div class="advantages-item__mark">
+              <svg width="48" height="48">
+                <use xlink:href="./assets/icons/check-mark.svg#check-mark"></use>
+              </svg>
+            </div>
+            <div class="advantages-item__box">
+              <h3 class="title2 advantages-item__subtitle">Заботитесь о близких</h3>
+              <p class="text">Много времени уделяете семье, детям и хотите построить свою систему здорового питания.</p>
+            </div>
+          </div>
+          <div class="advantages-item">
+            <div class="advantages-item__mark">
+              <svg width="48" height="48">
+                <use xlink:href="./assets/icons/check-mark.svg#check-mark"></use>
+              </svg>
+            </div>
+            <div class="advantages-item__box">
+              <h3 class="title2 advantages-item__subtitle">Часто заняты</h3>
+              <p class="text">Много работаете и не успеваете разобратьсякак правильно создать план питания.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tutorial">
+      <div class="wrapper">
+        <h2 class="title tutorial__title">Как это работает?</h2>
+        <div class="tutorial-list">
+          <div class="tutorial-item">
+            <div class="tutorial-list__number">1</div>
+            <div class="text tutorial-list__text">Заполняете анкету</div>
+          </div>
+          <div class="tutorial-item">
+            <div class="tutorial-list__number">2</div>
+            <div class="text tutorial-list__text">Указываете контактные данные</div>
+          </div>
+          <div class="tutorial-item">
+            <div class="tutorial-list__number">3</div>
+            <div class="text tutorial-list__text">Приобретаете доступ к платформе</div>
+          </div>
+          <div class="tutorial-item">
+            <div class="tutorial-list__number">4</div>
+            <div class="text tutorial-list__text">На платформе нажимаете «Подобрать план питания»</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="feedback">
+      <section class="proposal">
+        <div class="wrapper">
+          <div class="proposal__header">
+            <div class="proposal__content">
+              <h3 class="subtitle proposal__title">Лучшее предложение среди конкурентов</h3>
+              <div class="proposal__price-box">
+                <div class="proposal__new-price">1 890 ₽</div>
+                <div class="proposal__old-price">5 690 ₽</div>
+              </div>
+              <a class="btn proposal__btn" href="#">Получить доступ</a>
+            </div>
+
+          </div>
+          <div class="benefits">
+            <div class="nutrition">
+              <h4 class="title2 nutrition__title">Индивидуальный подбор плана питания</h4>
+              <p class="nutrition__list-title">План питания будет включать в себя:</p>
+              <ul class="nutrition__list">
+                <li class="text nutrition__item">Годовой сбалансированный рацион на 5 приёмов пищи в день. Базовая
+                  версия
+                  рациона
+                  адаптирована для людей по бюджету и составу (без киноа и лосося). Расширенные варианты рациона
+                  вариативны по бюджету и ограничениям;</li>
+                <li class="text nutrition__item">Расчёт КБЖУ. Норму и план потребления с рекомендациями от платформы;
+                </li>
+                <li class="text nutrition__item">Расчёт приёма витаминов,
+                  микроэлементов к годовому рациону;</li>
+                <li class="text nutrition__item">Норму водного баланса и питьевой режим.</li>
+              </ul>
+            </div>
+            <div class="benefits-box">
+              <h4 class="title2 benefits-box__title">Онлайн тестирование</h4>
+              <p class="text benefits-box__text">За 20 минут узнаем о вашем текущем образе жизни. Вы ответите на
+                вопросы,
+                и мы
+                определим ваши физиологические особенности, текущий пищевой и питьевой режим, а также физическую
+                активность.</p>
+            </div>
+            <div class="benefits-box benefits-box--radar">
+              <h4 class="title2 benefits-box__title benefits-box__title--radar">Модуль анализа</h4>
+              <p class="text benefits-box__text">Проанализируем текущий рацион, поможем сформулировать ваши цели и
+                выявить
+                нормы питания.</p>
+            </div>
+            <div class="benefits-box benefits-box--chat">
+              <h4 class="title2 benefits-box__title benefits-box__title--chat">Доступ в чат</h4>
+              <p class="text benefits-box__text">Доступ в закрытый чат в Telegram с членом Ассоциации диетологов для
+                дополнительных консультаций.</p>
+            </div>
+          </div>
+      </section>
+
+      <section class="questions">
+        <div class="wrapper">
+          <h2 class="title">Ответы на вопросы</h2>
+          <ul class="accordion">
+            <li class="accordion__item">
+              <h3 class="title2 accordion__title">
+                Сколько это стоит?
+              </h3>
+              <div class="accordion__body">
+                <div class="accordion__content">
+                  Индивидуальный подбор плана питания, онлайн тестирование, модуль анализа, доступ в закрытый чат с
+                  экспертом.
+                </div>
+              </div>
+            </li>
+            <li class="accordion__item">
+              <h3 class="title2 accordion__title">
+                Что входит в подбор?
+              </h3>
+              <div class="accordion__body">
+                <div class="accordion__content">
+                  Индивидуальный подбор плана питания, онлайн тестирование, модуль анализа, доступ в закрытый чат с
+                  экспертом.
+                </div>
+              </div>
+            </li>
+            <li class="accordion__item">
+              <h3 class="title2 accordion__title">
+                Как вернуть средства?
+              </h3>
+              <div class="accordion__body">
+                <div class="accordion__content">
+                  Индивидуальный подбор плана питания, онлайн тестирование, модуль анализа, доступ в закрытый чат с
+                  экспертом.
+                </div>
+              </div>
+            </li>
+            <li class="accordion__item">
+              <h3 class="title2 accordion__title">
+                Почему это выгодно?
+              </h3>
+              <div class="accordion__body">
+                <div class="accordion__content">
+                  Индивидуальный подбор плана питания, онлайн тестирование, модуль анализа, доступ в закрытый чат с
+                  экспертом.
+                </div>
+              </div>
+            </li>
+            <li class="accordion__item">
+              <h3 class="title2 accordion__title">
+                Какие гарантии качества?
+              </h3>
+              <div class="accordion__body">
+                <div class="accordion__content">
+                  Индивидуальный подбор плана питания, онлайн тестирование, модуль анализа, доступ в закрытый чат с
+                  экспертом.
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="wrapper">
+      <div class="footer__wrapper">
+        <a class="logo-link" href="#">
+          <div class="logo">
+            <div class="logo__picture">
+              <svg width="96" height="32">
+                <use xlink:href="./assets/img/logo-header.svg#logo"></use>
+              </svg>
+            </div>
+            <div class="logo__text">подбор<br> плана питания</div>
+          </div>
+        </a>
+        <a class="tel-link footer__phone" href="tel:+79505671122">+7 (950) 567-11-22</a>
+      </div>
+      <div class="footer__wrapper">
+        <p class="footer__trademark">@ Фреш, 2022</p>
+        <div class="footer__info">
+          <a class="footer__link" href="mailto:example@yandex.ru">example@yandex.ru</a>
+          <a class="footer__link footer__link--contract" href="#">Договор оферты</a>
+          <a class="footer__link footer__link--green" href="#">Политика конфиденциальности</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./scripts/accordion.js">
+  </script>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+    integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+  <script>
+    $('a[href^="#"').on('click', function () {
+      let href = $(this).attr('href');
+      $('html, body').animate({
+        scrollTop: $(href).offset().top
+      });
+      return false;
+    });
+  </script>
+</body>
+
+</html>
